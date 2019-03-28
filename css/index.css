@@ -60,9 +60,31 @@ a {
 }
 
 .projects__section__card {
-  margin: 20px;
+  margin: 30px;
 }
 
 .projects__section__card__image img {
   width: 250px;
+}
+.contact__section {
+  height: 30vh;
+  background-color: moccasin;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.contact__section__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.contact__section__logos i {
+  margin: 10px;
+}
+
+.footer {
+  height: 10vh;
+  background-color: dimgray;
 }
